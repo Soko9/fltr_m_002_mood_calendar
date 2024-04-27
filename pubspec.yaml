@@ -1,0 +1,30 @@
+name: fltr_m_001_mood_calendar
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.5.0-18.0.dev <4.0.0'
+
+dependencies:
+  challenge_tag:
+    git:
+      url: https://github.com/Soko9/challenge_tag.git
+      ref: main
+  flutter:
+    sdk: flutter
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.3
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Hermit
+      fonts:
+        - asset: fonts/Hermit-Regular.otf
